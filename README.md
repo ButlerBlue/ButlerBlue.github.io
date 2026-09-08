@@ -1,6 +1,6 @@
 # ButlerBlue.github.io
 
-Personal portfolio and writing archive for Stephanie Dlatt, an Implementation Specialist working on Salesforce integrations and single sign on for membership organizations.
+Personal portfolio and writing archive for Stephanie Dlatt, an Implementation Specialist building Salesforce integrations, single sign on, and API architecture.
 
 **Live site:** [butlerblue.github.io](https://butlerblue.github.io)
 
