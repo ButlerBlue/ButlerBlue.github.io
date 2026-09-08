@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Stephanie Dlatt</title>
+<style>
+  :root {
+    --bg: #140D1A;
+    --white: #FFFFFF;
+    --lavender: #C9A6D4;
+    --magenta: #F03A8F;
+    --muted: #4A2E52;
+    --yellow: #FFE066;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--lavender);
+    font-family: "Segoe UI", -apple-system, "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.6;
+  }
+  h1, h2, h3 { font-family: Georgia, "Times New Roman", serif; color: var(--white); margin: 0; }
+  a { color: var(--yellow); }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 0 28px; }
+
+  header.hero { padding: 110px 0 70px; border-bottom: 1px solid var(--muted); }
+  header.hero .kicker { font-size: 14px; letter-spacing: 3px; text-transform: uppercase; color: var(--magenta); font-weight: 700; margin-bottom: 22px; }
+  header.hero h1 { font-size: 46px; line-height: 1.25; margin-bottom: 20px; }
+  header.hero p.tagline { font-style: italic; font-size: 19px; color: var(--lavender); max-width: 520px; }
+  nav.top { margin-top: 40px; display: flex; gap: 26px; flex-wrap: wrap; }
+  nav.top a { font-size: 14px; letter-spacing: 1px; text-transform: uppercase; text-decoration: none; color: var(--lavender); border-bottom: 2px solid transparent; padding-bottom: 4px; }
+  nav.top a:hover { color: var(--white); border-bottom-color: var(--magenta); }
+
+  section { padding: 70px 0; border-bottom: 1px solid var(--muted); }
+  section:last-of-type { border-bottom: none; }
+  section .rule { width: 60px; height: 4px; background: var(--magenta); border-radius: 2px; margin-bottom: 26px; }
+  section h2 { font-size: 30px; margin-bottom: 26px; }
+  section p { color: var(--lavender); font-size: 17px; }
+
+  .case-study .meta { font-size: 13px; letter-spacing: 1.5px; text-transform: uppercase; color: var(--muted-text, #8C7395); margin-bottom: 8px; }
+  .case-study h3 { font-size: 24px; margin-bottom: 18px; color: var(--white); font-family: Georgia, "Times New Roman", serif; }
+  .case-study .block { margin-bottom: 26px; }
+  .case-study .block .label { font-size: 13px; letter-spacing: 1.5px; text-transform: uppercase; color: var(--magenta); font-weight: 700; margin-bottom: 8px; }
+
+  .post-card { background: rgba(255,255,255,0.03); border: 1px solid var(--muted); border-radius: 10px; padding: 28px 30px; margin-bottom: 24px; }
+  .post-card .post-meta { font-size: 13px; letter-spacing: 1px; text-transform: uppercase; color: #8C7395; margin-bottom: 14px; }
+  .post-card h3 { font-size: 21px; margin-bottom: 16px; color: var(--white); }
+  .post-card .post-body { white-space: pre-line; font-size: 16px; color: var(--lavender); }
+  details.post-card summary { cursor: pointer; list-style: none; }
+  details.post-card summary::-webkit-details-marker { display: none; }
+  details.post-card summary .toggle { float: right; color: var(--magenta); font-size: 14px; text-transform: uppercase; letter-spacing: 1px; }
+  details.post-card[open] summary .toggle::after { content: "Collapse"; }
+  details.post-card:not([open]) summary .toggle::after { content: "Read"; }
+  details.post-card .post-body { margin-top: 20px; }
+
+  footer { padding: 60px 0 90px; font-size: 14px; color: #8C7395; }
+  footer a { color: var(--lavender); }
+  .diagram { margin-bottom: 30px; }
+</style>
+</head>
+<body>
+
+<div class="wrap">
+  <header class="hero">
+    <svg class="diagram" width="150" height="70" viewBox="0 0 150 70">
+      <g fill="none" stroke="#F03A8F" stroke-width="2.2">
+        <rect x="4" y="6" width="58" height="46" rx="6"/>
+        <rect x="88" y="6" width="58" height="46" rx="6"/>
+        <path d="M65 20 H85"/>
+        <path d="M85 38 H65"/>
+      </g>
+      <path d="M87 20 l-9 -5 v10 z" fill="#F03A8F"/>
+      <path d="M63 38 l9 -5 v10 z" fill="#F03A8F"/>
+      <g stroke="#4A2E52" stroke-width="3.5" stroke-linecap="round">
+        <line x1="14" y1="20" x2="42" y2="20"/>
+        <line x1="14" y1="38" x2="36" y2="38"/>
+        <line x1="98" y1="20" x2="126" y2="20"/>
+        <line x1="98" y1="30" x2="120" y2="30"/>
+        <line x1="98" y1="38" x2="124" y2="38"/>
+      </g>
+      <line x1="14" y1="29" x2="48" y2="29" stroke="#FFE066" stroke-width="3.5" stroke-linecap="round"/>
+    </svg>
+    <div class="kicker">Implementation &amp; Integrations</div>
+    <h1>Stephanie Dlatt</h1>
+    <p class="tagline">Behind every record is a person having an actual day.</p>
+    <nav class="top">
+      <a href="#about">About</a>
+      <a href="#case-study">Case Study</a>
+      <a href="#writing">Writing</a>
+      <a href="https://www.linkedin.com/in/sdlatt" target="_blank" rel="noopener">LinkedIn</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <div class="rule"></div>
+    <h2>About</h2>
+    <p>I'm an Implementation Specialist at re:Members, which is a long way of saying I spend my days getting one system to talk to another without either of them throwing a fit about it. Single sign on, data migrations, API integrations, and the occasional 11 PM "why is this field empty" mystery.</p>
+    <p>The organizations I work with are membership based: fraternities, sororities, foundations, associations. Groups built entirely on people showing up for each other. Their technology should make that easier, not harder. That is the whole job.</p>
+    <p>I came into this sideways. History and anthropology as my disciplines, a stint in an archive, seven years in nonprofit fundraising and operations, then years building and repairing the systems underneath organizations like the ones I used to work for.</p>
+  </section>
+
+  <section id="case-study" class="case-study">
+    <div class="rule"></div>
+    <h2>Case Study</h2>
+    <div class="meta">Vendor Integration &middot; Salesforce Architecture &middot; Knowledge Transfer</div>
+    <h3>Building an integration for a system I never had a login to</h3>
+
+    <div class="block">
+      <div class="label">Situation</div>
+      <p>A third party vendor needed a Salesforce integration built for their platform. Their lead engineer was sharp and thorough, but new to Salesforce entirely, and I never had a login, an admin panel view, or any direct visibility into their system across the several months we worked together.</p>
+    </div>
+
+    <div class="block">
+      <div class="label">Approach</div>
+      <p>Most of the early work was knowledge transfer: what a permission set is and how it differs from a profile, why "the object is accessible" and "the field has a value" are two separate promises, why a system user needs API access enabled at the profile level before anything else works.</p>
+      <p>But the harder half of the work wasn't admin configuration. It was schema design: how an application record relates to its reviewers, its grades, and its comments, and which identifier survives if an email address changes but a record cannot. It was an API architecture decision hiding inside a volume question: records moved through synchronous calls capped at two hundred each, or through an asynchronous bulk job built for larger loads. And it was a packaging decision most admins never touch: which org owns a Salesforce package once it's created, and what breaks for every future client if that ownership is wrong from the start.</p>
+      <p>The permission set itself was scoped tight on purpose: full access on the objects that belonged to the vendor, since they were the source of truth for that data, and read only access on a short list of named fields everywhere else. Two versions of the same permission set were built, one for clients licensing the connector as a full platform user, one for the cheaper API only integration license, since those two license types quietly support different permissions.</p>
+    </div>
+
+    <div class="block">
+      <div class="label">Working without visibility</div>
+      <p>I never tried to reconstruct their platform in my head. When the engineer described how a record connected to another, I took the description at face value and reasoned from what Salesforce needed to receive, not from a guess about what their database looked like. My side of the integration, I verified myself, directly. Their side, I trusted them to be the expert on, because they were.</p>
+    </div>
+
+    <div class="block">
+      <div class="label">Outcome</div>
+      <p>A production integration that installs the same scoped, tested package for every future client the vendor signs, and a vendor engineer who went from no Salesforce experience to shipping schema changes independently. He thanked me for being direct about timelines instead of vague. I'd take that over almost any other compliment the project produced.</p>
+    </div>
+  </section>
+
+  <section id="writing">
+    <div class="rule"></div>
+    <h2>Writing</h2>
+    <p style="margin-bottom: 34px;">Posts from <a href="https://www.linkedin.com/in/sdlatt" target="_blank" rel="noopener">LinkedIn</a>, archived here in full.</p>
+
+    <details class="post-card" open>
+      <summary><span class="toggle"></span><h3>Introduction</h3></summary>
+      <div class="post-meta">Aug 12, 2026</div>
+      <div class="post-body">Hi, I am Stephanie. New to posting here. Not new to the work.
+
+I am an Implementation Specialist at re:Members, which is a long way of saying I spend my days getting one system to talk to another without either of them throwing a fit about it. Single sign on, data migrations, API integrations, and the occasional 11 PM "why is this field empty" mystery.
+
+The organizations I work with are membership based: fraternities, sororities, foundations, associations. Groups built entirely on people showing up for each other. Their technology should make that easier, not harder. That is the whole job.
+
+I came into this sideways. History and anthropology as my disciplines, a stint in an archive, seven years in nonprofit fundraising and operations, then five years building and repairing the systems underneath organizations like the ones I used to work for. More on that in a few weeks.
+
+I am going to start posting weekly. Expect practical things I learned the hard way, opinions about unique identifiers that I hold far too strongly, and regular reminders that behind every record is an actual human being having an actual day.
+
+Glad you are here. Say hi.</div>
+    </details>
+
+    <details class="post-card">
+      <summary><span class="toggle"></span><h3>Bristol Pirate Bingo</h3></summary>
+      <div class="post-meta">Aug 20, 2026</div>
+      <div class="post-body">A weekend at a Renaissance faire's pirate weekend turned into a bingo card for the specific, wonderful chaos of people fully committing to a bit: hand-forged hooks, hand-sewn flags, a wheelchair rigged out as a ship, and someone in full leather in the August sun with no complaints.
+
+Five in a row wins. All twenty four wins louder.</div>
+    </details>
+
+    <details class="post-card">
+      <summary><span class="toggle"></span><h3>I did not know I needed it</h3></summary>
+      <div class="post-meta">Aug 26, 2026</div>
+      <div class="post-body">I did not know how much I needed it until it landed.
+
+Recently, a client wrote to my leadership, unprompted, about the work our team has been doing. A few of us were named. My teammates earned every word, because nobody gets a launch across the line alone.
+
+I have still read it more times than I am going to admit here.
+
+Some context on why it hit the way it did. Membership organizations run on an academic calendar, so summer is when everything has to go live. Students come back, dues cycles start, and the deadline is an actual billing run rather than a date somebody preferred. We have been launching several at once.
+
+The last stretch has been validate, freeze, load, verify, repeat. Long days, weekend checks, and the very particular fatigue of being careful for hours at a stretch, because in this work the mistakes are quiet. They do not announce themselves. They surface three weeks later.
+
+You get through a season like that by keeping your head down. Which is exactly why a note from outside your own building lands the way it does. Nobody asked him to write it. He noticed, and he said so.
+
+So if you have thought something good about someone's work recently, send it. Do not save it for their review. Do not assume they already know.
+
+I am confident in what I do. I still needed it. Most of the people around you are running on less recognition than you would guess.</div>
+    </details>
+
+    <details class="post-card">
+      <summary><span class="toggle"></span><h3>The most expensive sentence</h3></summary>
+      <div class="post-meta">Sep 2, 2026</div>
+      <div class="post-body">The most expensive sentence I hear on an implementation project: "it's just one test record."
+
+It is never just one test record. That record trips an automation. The automation sends a real email to a real member who was not expecting it. She calls her chapter. Her chapter calls headquarters. Headquarters calls me. It was a Friday. It was 4:45.
+
+I do not love how avoidable that afternoon was. The record was fine. What was missing was two questions I now ask before anything touches production, no matter how small it looks.
+
+What else does this touch. Not just the field I am changing, but the automations, the notifications, the systems downstream that will notice before I do.
+
+Can I actually undo it. Not "we'll fix it if it's wrong," which is a feeling, not a plan. The real answer, before I need it.
+
+Small changes are the ones that get skipped past, because they look too minor to bother checking. That is exactly when they get expensive.
+
+Ask the two questions. Save your Friday.</div>
+    </details>
+  </section>
+
+  <footer>
+    <p>Stephanie Dlatt &middot; Greater Chicago Area &middot; <a href="https://www.linkedin.com/in/sdlatt" target="_blank" rel="noopener">linkedin.com/in/sdlatt</a></p>
+  </footer>
+</div>
+
+</body>
+</html>
