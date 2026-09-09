@@ -55,6 +55,12 @@
   details.post-card:not([open]) summary .toggle::after { content: "Read"; }
   details.post-card .post-body { margin-top: 20px; }
 
+  .post-body .beat { border-left: 3px solid var(--magenta); padding-left: 18px; margin: 0 0 22px; white-space: normal; }
+  .post-body .beat:last-child { margin-bottom: 0; }
+  .post-body .beat-head { font-family: Georgia, "Times New Roman", serif; color: var(--white); font-size: 18px; font-weight: 700; margin: 0 0 8px; }
+  .post-body .beat-body { margin: 0; }
+  .post-body .beat blockquote { margin: 16px 0 0; padding-top: 16px; border-top: 1px solid var(--muted); font-style: italic; color: var(--yellow); }
+
   footer { padding: 60px 0 90px; font-size: 14px; color: #8C7395; }
   footer a { color: var(--lavender); }
   .diagram { margin-bottom: 30px; }
@@ -295,13 +301,37 @@ Ask the two questions. Save your Friday.</div>
     </details>
 
     <details class="post-card" open>
-      <summary><span class="toggle"></span><h3>The schema before the security questions</h3></summary>
+      <summary><span class="toggle"></span><h3>That's normal for where I sit</h3></summary>
       <div class="post-meta">Sep 9, 2026</div>
-      <div class="post-body">Before any security questions, we had a schema to design. How an application record relates to its reviewers, grades, and comments. What happens when two relationships need to point to the same person? Which identifier survives if an email address changes but a record cannot.
-
-An API architecture decision was hidden in a volume question that sounded simple. Five thousand records, moved through synchronous calls capped at two hundred records each. Or an asynchronous bulk job, built for exactly that kind of end-of-cycle load.
-
-And underneath it all, a packaging problem most admins never touch. Which org actually owns the package once you create it? Why a sandbox and a production org authenticate against two different endpoints. What quietly breaks for every future client if that ownership is wrong from the start and nobody catches it early.</div>
+      <div class="post-body"><div class="beat">
+        <p class="beat-head">I built a Salesforce integration for a system I have never logged into.</p>
+        <p class="beat-body"><em>Here's what that actually took.</em></p>
+      </div>
+      <div class="beat">
+        <p class="beat-head">That's normal for where I sit.</p>
+        <p class="beat-body">New vendor. Little to no context on their side. No login. I work off questions, scoping conversations, and whatever the other engineer can show me.</p>
+      </div>
+      <div class="beat">
+        <p class="beat-head">Most of it was knowledge transfer.</p>
+        <p class="beat-body">What's a permission set, versus a profile. Why "the object is accessible" and "the field has a value" are two different promises, and skipping the second means an integration writes blank fields for weeks before anyone notices.</p>
+      </div>
+      <div class="beat">
+        <p class="beat-head">But most of it wasn't admin work.</p>
+        <p class="beat-body">A schema to design. An API architecture call: two hundred records per synchronous call, or an async bulk job. A packaging decision most admins never touch.</p>
+      </div>
+      <div class="beat">
+        <p class="beat-head">That's architecture and integration design.</p>
+        <p class="beat-body">Not configuration. Some of it was literally writing the query or the API payload myself, not just describing the shape of what he needed.</p>
+      </div>
+      <div class="beat">
+        <p class="beat-head">The permission set was tight, on purpose.</p>
+        <p class="beat-body">Full access on their own data. Read only, named fields, everywhere else. Two versions of the same set, built for two different license types.</p>
+      </div>
+      <div class="beat">
+        <p class="beat-head">Knowledge transfer isn't handing someone a stack of facts.</p>
+        <p class="beat-body">It's deciding which half of the problem is yours to verify, and which half you trust someone else to know better than you do.</p>
+        <blockquote>"They thanked me for being direct about timelines instead of vague. I'll take that over almost any other compliment this project produced."</blockquote>
+      </div></div>
     </details>
   </section>
 
