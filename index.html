@@ -216,7 +216,7 @@
     <h2>Writing</h2>
     <p style="margin-bottom: 34px;">Posts from <a href="https://www.linkedin.com/in/sdlatt" target="_blank" rel="noopener">LinkedIn</a>, archived here in full.</p>
 
-    <details class="post-card" open>
+    <details class="post-card">
       <summary><span class="toggle"></span><h3>Introduction</h3></summary>
       <div class="post-meta">Aug 12, 2026</div>
       <div class="post-body">Hi, I am Stephanie. New to posting here. Not new to the work.
@@ -292,6 +292,16 @@ Can I actually undo it. Not "we'll fix it if it's wrong," which is a feeling, no
 Small changes are the ones that get skipped past, because they look too minor to bother checking. That is exactly when they get expensive.
 
 Ask the two questions. Save your Friday.</div>
+    </details>
+
+    <details class="post-card" open>
+      <summary><span class="toggle"></span><h3>The schema before the security questions</h3></summary>
+      <div class="post-meta">Sep 9, 2026</div>
+      <div class="post-body">Before any security questions, we had a schema to design. How an application record relates to its reviewers, grades, and comments. What happens when two relationships need to point to the same person? Which identifier survives if an email address changes but a record cannot.
+
+An API architecture decision was hidden in a volume question that sounded simple. Five thousand records, moved through synchronous calls capped at two hundred records each. Or an asynchronous bulk job, built for exactly that kind of end-of-cycle load.
+
+And underneath it all, a packaging problem most admins never touch. Which org actually owns the package once you create it? Why a sandbox and a production org authenticate against two different endpoints. What quietly breaks for every future client if that ownership is wrong from the start and nobody catches it early.</div>
     </details>
   </section>
 
