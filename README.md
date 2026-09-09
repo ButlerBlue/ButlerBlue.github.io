@@ -2,7 +2,7 @@
 
 Personal portfolio and writing archive for Stephanie Dlatt, an Implementation Specialist building Salesforce integrations, single sign on, and API architecture.
 
-**Live site:** [butlerblue.github.io](https://butlerblue.github.io)
+**Live site:** [butlerblue.github.io/StephanieDlatt.github.io](https://butlerblue.github.io/StephanieDlatt.github.io/)
 
 **What's here**
 - A case study on building a Salesforce integration for a vendor's platform with no direct access to their system
